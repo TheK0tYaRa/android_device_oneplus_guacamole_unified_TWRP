@@ -1,11 +1,11 @@
 # add clang-proton to our path
 #export PATH="$(gettop)/prebuilts/clang/host/linux-x86/clang-proton/bin:$PATH"
 
-export TARGET_ARCH="arm64"
+export TARGET_ARCH="arm64-v8a"
 
 # Some about us
 export FOX_VERSION="R11.0_1.2"
-export OF_MAINTAINER=Invernomuto
+# export OF_MAINTAINER=
 
 # Build environment stuffs
 export ALLOW_MISSING_DEPENDENCIES=true
