@@ -10,7 +10,7 @@ export OF_MAINTAINER=Invernomuto
 # Build environment stuffs
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER="1"
-export OF_DISABLE_MIUI_SPECIFIC_FEATURES="1"
+export OF_DISABLE_MIUI_SPECIFIC_FEATURES="0"
 # export OF_VANILLA_BUILD="1"
 export LC_ALL="C"
 export TARGET_DEVICE_ALT="guacamoleb, guacamolec"
